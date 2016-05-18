@@ -17,7 +17,6 @@ extra-source-files:  Tests/pem.hs
 
 Library
   Build-Depends:     base >= 3 && < 5
-                   , mtl
                    , bytestring
                    , base64-bytestring >= 1.0.0
   Exposed-modules:   Data.PEM
